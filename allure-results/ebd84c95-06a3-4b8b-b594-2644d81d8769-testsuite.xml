@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591114631193' stop='1591114642693'>
+    <name>login page feature test</name>
+    <title>login page feature test</title>
+    <test-cases>
+        <test-case start='1591114631193' status='undefined'>
+            <name>verify signup Link</name>
+            <title>verify signup Link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='093daa8a-0b0d-45c5-a80b-b2a58884c0f6-attachment.png' type='image/png' size='31975'/>
+            </attachments>
+        </test-case>
+        <test-case start='1591114639755' status='undefined'>
+            <name>verify signup Link</name>
+            <title>verify signup Link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4b488864-0535-4dc4-acac-c872e0e81d58-attachment.png' type='image/png' size='31993'/>
+            </attachments>
+        </test-case>
+        <test-case start='1591114640920' status='failed' stop='1591114642691'>
+            <name>verify signup Link</name>
+            <title>verify signup Link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='34ea0b67-9fcd-4d2e-b5a2-3285674dc492-attachment.png' type='image/png' size='31993'/>
+            </attachments>
+            <failure>
+                <message>sign up link is not present: expected false to equal true</message>
+                <stack-trace>AssertionError: sign up link is not present: expected false to equal true
+                    at Context.&lt;anonymous> (C:\Users\Viji\Documents\workspace_vsc\WDIO-App-POM-Framework\test\specs\login.test.js:22:16)
+                    at Context.executeSync (C:\Users\Viji\Documents\workspace_vsc\WDIO-App-POM-Framework\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Viji\Documents\workspace_vsc\WDIO-App-POM-Framework\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

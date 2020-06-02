@@ -1,0 +1,65 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "home page feature test",
+    "children" : [ {
+      "name" : "verify home page title",
+      "uid" : "c85e78dc314924d3",
+      "parentUid" : "bf16774ca36e41509beb7646e8abb7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591114631190,
+        "stop" : 1591114641377,
+        "duration" : 10187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify home page header",
+      "uid" : "b04e59e8d67292a8",
+      "parentUid" : "bf16774ca36e41509beb7646e8abb7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591114641377,
+        "stop" : 1591114642156,
+        "duration" : 779
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify loggedin account name",
+      "uid" : "92c590a1bf798526",
+      "parentUid" : "bf16774ca36e41509beb7646e8abb7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591114642156,
+        "stop" : 1591114642198,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "bf16774ca36e41509beb7646e8abb7e9"
+  }, {
+    "name" : "login page feature test",
+    "children" : [ {
+      "name" : "verify signup Link",
+      "uid" : "92b0c16cc0824358",
+      "parentUid" : "d9ed5704eee91a664d7439de9aa464a1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591114640920,
+        "stop" : 1591114642691,
+        "duration" : 1771
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "d9ed5704eee91a664d7439de9aa464a1"
+  } ]
+}

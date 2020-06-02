@@ -1,0 +1,80 @@
+{
+  "uid" : "8cab331563c8b885",
+  "name" : "verify signup Link",
+  "fullName" : "login page feature test.verify signup Link",
+  "historyId" : "d9e0d5b4cd79195661ffbd0a20d88b62",
+  "time" : {
+    "start" : 1591113035789,
+    "stop" : 1591113036837,
+    "duration" : 1048
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "sign up link is not present: expected false to equal true",
+  "statusTrace" : "AssertionError: sign up link is not present: expected false to equal true\n                    at Context.<anonymous> (C:\\Users\\Viji\\Documents\\workspace_vsc\\WDIO-App-POM-Framework\\test\\specs\\login.test.js:22:16)\n                    at Context.executeSync (C:\\Users\\Viji\\Documents\\workspace_vsc\\WDIO-App-POM-Framework\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Viji\\Documents\\workspace_vsc\\WDIO-App-POM-Framework\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "login page feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "login page feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify signup Link"
+  }, {
+    "name" : "package",
+    "value" : "login page feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9cffa966503d53bb",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591113033517,
+        "stop" : 0,
+        "duration" : -1591113033517
+      }
+    }, {
+      "uid" : "5234fa2b3df8312d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591113025863,
+        "stop" : 0,
+        "duration" : -1591113025863
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8cab331563c8b885.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,72 @@
+{
+  "uid" : "18f7053751f67127",
+  "name" : "verify signup Link",
+  "fullName" : "login page feature test.verify signup Link",
+  "historyId" : "d9e0d5b4cd79195661ffbd0a20d88b62",
+  "time" : {
+    "start" : 1591114631193,
+    "stop" : 0,
+    "duration" : -1591114631193
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "unknown",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "49c6f8bbca11e93d",
+      "name" : "Screenshot",
+      "source" : "49c6f8bbca11e93d.png",
+      "type" : "image/png",
+      "size" : 31975
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "login page feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "login page feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify signup Link"
+  }, {
+    "name" : "package",
+    "value" : "login page feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18f7053751f67127.json",
+  "parameterValues" : [ "chrome" ]
+}

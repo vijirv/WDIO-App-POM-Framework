@@ -1,0 +1,98 @@
+{
+  "uid" : "92b0c16cc0824358",
+  "name" : "verify signup Link",
+  "fullName" : "login page feature test.verify signup Link",
+  "historyId" : "d9e0d5b4cd79195661ffbd0a20d88b62",
+  "time" : {
+    "start" : 1591114640920,
+    "stop" : 1591114642691,
+    "duration" : 1771
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "sign up link is not present: expected false to equal true",
+  "statusTrace" : "AssertionError: sign up link is not present: expected false to equal true\n                    at Context.<anonymous> (C:\\Users\\Viji\\Documents\\workspace_vsc\\WDIO-App-POM-Framework\\test\\specs\\login.test.js:22:16)\n                    at Context.executeSync (C:\\Users\\Viji\\Documents\\workspace_vsc\\WDIO-App-POM-Framework\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Viji\\Documents\\workspace_vsc\\WDIO-App-POM-Framework\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "sign up link is not present: expected false to equal true",
+    "statusTrace" : "AssertionError: sign up link is not present: expected false to equal true\n                    at Context.<anonymous> (C:\\Users\\Viji\\Documents\\workspace_vsc\\WDIO-App-POM-Framework\\test\\specs\\login.test.js:22:16)\n                    at Context.executeSync (C:\\Users\\Viji\\Documents\\workspace_vsc\\WDIO-App-POM-Framework\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Viji\\Documents\\workspace_vsc\\WDIO-App-POM-Framework\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d94a5426f05318c2",
+      "name" : "Screenshot",
+      "source" : "d94a5426f05318c2.png",
+      "type" : "image/png",
+      "size" : 31993
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "login page feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "login page feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify signup Link"
+  }, {
+    "name" : "package",
+    "value" : "login page feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fce90baea17a70c8",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591114639755,
+        "stop" : 0,
+        "duration" : -1591114639755
+      }
+    }, {
+      "uid" : "18f7053751f67127",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591114631193,
+        "stop" : 0,
+        "duration" : -1591114631193
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "92b0c16cc0824358.json",
+  "parameterValues" : [ "chrome" ]
+}

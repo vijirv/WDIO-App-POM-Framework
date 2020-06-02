@@ -1,0 +1,41 @@
+[ {
+  "uid" : "b04e59e8d67292a8",
+  "name" : "verify home page header",
+  "time" : {
+    "start" : 1591114641377,
+    "stop" : 1591114642156,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92b0c16cc0824358",
+  "name" : "verify signup Link",
+  "time" : {
+    "start" : 1591114640920,
+    "stop" : 1591114642691,
+    "duration" : 1771
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "92c590a1bf798526",
+  "name" : "verify loggedin account name",
+  "time" : {
+    "start" : 1591114642156,
+    "stop" : 1591114642198,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c85e78dc314924d3",
+  "name" : "verify home page title",
+  "time" : {
+    "start" : 1591114631190,
+    "stop" : 1591114641377,
+    "duration" : 10187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

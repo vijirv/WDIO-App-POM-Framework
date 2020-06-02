@@ -1,0 +1,91 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "verify home page header",
+      "uid" : "b04e59e8d67292a8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591114641377,
+        "stop" : 1591114642156,
+        "duration" : 779
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify loggedin account name",
+      "uid" : "92c590a1bf798526",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591114642156,
+        "stop" : 1591114642198,
+        "duration" : 42
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify home page title",
+      "uid" : "c85e78dc314924d3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591114631190,
+        "stop" : 1591114641377,
+        "duration" : 10187
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "verify signup Link",
+      "uid" : "fce90baea17a70c8",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591114639755,
+        "stop" : 0,
+        "duration" : -1591114639755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify signup Link",
+      "uid" : "92b0c16cc0824358",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591114640920,
+        "stop" : 1591114642691,
+        "duration" : 1771
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "verify signup Link",
+      "uid" : "18f7053751f67127",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591114631193,
+        "stop" : 0,
+        "duration" : -1591114631193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  } ]
+}

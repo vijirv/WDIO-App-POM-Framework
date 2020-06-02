@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jun 02 17:17:21 BST 2020","Tue Jun 02 17:17:22 BST 2020","779","","home page feature test","","home page feature test","verify home page header","verify home page header",""
+"failed","Tue Jun 02 17:17:20 BST 2020","Tue Jun 02 17:17:22 BST 2020","1771","","login page feature test","","login page feature test","verify signup Link","verify signup Link",""
+"passed","Tue Jun 02 17:17:22 BST 2020","Tue Jun 02 17:17:22 BST 2020","42","","home page feature test","","home page feature test","verify loggedin account name","verify loggedin account name",""
+"passed","Tue Jun 02 17:17:11 BST 2020","Tue Jun 02 17:17:21 BST 2020","10187","","home page feature test","","home page feature test","verify home page title","verify home page title",""

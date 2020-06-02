@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591113025863' stop='1591113036837'>
+    <name>login page feature test</name>
+    <title>login page feature test</title>
+    <test-cases>
+        <test-case start='1591113025863' status='undefined'>
+            <name>verify signup Link</name>
+            <title>verify signup Link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1591113033517' status='undefined'>
+            <name>verify signup Link</name>
+            <title>verify signup Link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1591113035789' status='failed' stop='1591113036837'>
+            <name>verify signup Link</name>
+            <title>verify signup Link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>sign up link is not present: expected false to equal true</message>
+                <stack-trace>AssertionError: sign up link is not present: expected false to equal true
+                    at Context.&lt;anonymous> (C:\Users\Viji\Documents\workspace_vsc\WDIO-App-POM-Framework\test\specs\login.test.js:22:16)
+                    at Context.executeSync (C:\Users\Viji\Documents\workspace_vsc\WDIO-App-POM-Framework\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Viji\Documents\workspace_vsc\WDIO-App-POM-Framework\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

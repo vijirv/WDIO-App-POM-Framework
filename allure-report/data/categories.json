@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "sign up link is not present: expected false to equal true",
+      "children" : [ {
+        "name" : "verify signup Link",
+        "uid" : "92b0c16cc0824358",
+        "parentUid" : "61fb3b4784d5e83b4f2dc9a16fc8b7da",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591114640920,
+          "stop" : 1591114642691,
+          "duration" : 1771
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "61fb3b4784d5e83b4f2dc9a16fc8b7da"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

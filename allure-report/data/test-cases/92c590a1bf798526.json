@@ -1,0 +1,58 @@
+{
+  "uid" : "92c590a1bf798526",
+  "name" : "verify loggedin account name",
+  "fullName" : "home page feature test.verify loggedin account name",
+  "historyId" : "27125b2d7fb9521accd3404cee7e7dac",
+  "time" : {
+    "start" : 1591114642156,
+    "stop" : 1591114642198,
+    "duration" : 42
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "home page feature test"
+  }, {
+    "name" : "testClass",
+    "value" : "home page feature test"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify loggedin account name"
+  }, {
+    "name" : "package",
+    "value" : "home page feature test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92c590a1bf798526.json",
+  "parameterValues" : [ "chrome" ]
+}
